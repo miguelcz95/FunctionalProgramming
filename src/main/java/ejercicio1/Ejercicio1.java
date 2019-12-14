@@ -1,4 +1,4 @@
-package Ejercicio1;
+package ejercicio1;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -9,16 +9,16 @@ public class Ejercicio1 {
 
 
     public static void main(String[] args) {
-        Ejercicio1FunctionTest ejercicio1FunctionTest = () -> LOGGER.log(Level.INFO, "Hola Mundo");
+        SaludarFunctionTest saludarFunctionTest = () -> LOGGER.log(Level.INFO, "Hola Mundo");
 
-        ejercicio1FunctionTest.saludar();
+        saludarFunctionTest.saludar();
 
         Ejercicio1 ejercicio1 = new Ejercicio1();
-        ejercicio1.miMetodo(ejercicio1FunctionTest);
+        ejercicio1.miMetodo(saludarFunctionTest);
 
     }
 
-    public void miMetodo(Ejercicio1FunctionTest parametro) {
+    public void miMetodo(SaludarFunctionTest parametro) {
         parametro.saludar();
     }
 }
