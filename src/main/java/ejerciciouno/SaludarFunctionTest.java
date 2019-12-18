@@ -1,5 +1,6 @@
-package ejercicio1;
+package ejerciciouno;
 
+@FunctionalInterface
 public interface SaludarFunctionTest {
 
     void saludar();

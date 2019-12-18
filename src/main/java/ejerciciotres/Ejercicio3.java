@@ -1,4 +1,4 @@
-package ejercicio3;
+package ejerciciotres;
 
 import java.util.logging.Logger;
 

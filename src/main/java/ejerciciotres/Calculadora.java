@@ -1,4 +1,4 @@
-package ejercicio3;
+package ejerciciotres;
 
 public interface Calculadora {
 

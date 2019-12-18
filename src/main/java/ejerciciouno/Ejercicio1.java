@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejerciciouno;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
